@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://www.ukbglife.co.uk/wp-content/uploads/2023/03/grocery-store-or-supermarket-with-food-product-shelves-racks-dairy-fruits-and-drinks-for-shopping-in-flat-cartoon-hand-drawn-templates-illustration-vector.webp'); /* Ruta de tu imagen */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Para que el fondo no se desplace con el scroll */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    color: #151515; /* Texto blanco para contrastar con la imagen de fondo */
+}
+
+h1 {
+    text-align: center;
+    color: #030303;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 80%;
+    max-width: 900px;
+    border-collapse: collapse;
+    background-color: #eeebeb;
+    box-shadow: 0 4px 8px rgb(231, 229, 229);
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+
+th, td {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #4CAF50;
+    color: rgb(28, 28, 28);
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+tr:hover {
+    background-color: #d1cdcd;
+}
+
+.actions a {
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin: 0 5px;
+    color: rgb(0, 0, 0);
+    display: inline-flex;
+    align-items: center;
+}
+
+.actions .edit {
+    background-color: #ffc107;
+}
+
+.actions .delete {
+    background-color: #dc3545;
+}
+
+.actions a:hover {
+    opacity: 0.8;
+}
+
+.actions a i {
+    margin-right: 5px;
+}
+
+.add-product {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.add-product:hover {
+    background-color: #218838;
+}
+
+/* Centrado del contenedor del botón agregar producto */
+.container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Centrar tabla y su contenido */
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* Íconos para las columnas */
+th i {
+    margin-right: 8px;
+}

@@ -1,0 +1,93 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('https://www.uchida.co.jp/system/report/images/20220034/img_ogp.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Contenedor del formulario */
+.container {
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo semitransparente */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Estilos para el título */
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Grupos de formularios */
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+/* Estilos para las etiquetas */
+.form-group label {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Estilos para los campos de entrada */
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Botón de guardar cambios */
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+button i {
+    margin-right: 8px;
+}
+
+/* Efecto hover para el botón */
+button:hover {
+    background-color: #218838;
+}
+
+/* Estilos para el enlace de regreso */
+a.regresar {
+    display: inline-block;
+    margin-top: 20px;
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+a.regresar i {
+    margin-right: 5px;
+}
+
+/* Efecto hover para el enlace de regreso */
+a.regresar:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+table {
+    width: 60%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    background-color: rgb(115, 254, 127); /* Fondo blanco para la tabla */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+table, th, td {
+    border: 2px solid rgb(0, 0, 0);
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.actions a {
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    background-color: #007BFF;
+    border-radius: 5px;
+    transition: background-color 0.3s; /* Transición suave para el color de fondo */
+}
+
+.actions a.delete {
+    background-color: #dc3545;
+}
+
+.actions a.edit {
+    background-color: #ffc107;
+}
+
+/* Efecto de hover para los enlaces de acción */
+.actions a:hover {
+    opacity: 0.8; /* Cambio de opacidad al pasar el mouse */
+}

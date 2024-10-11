@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://www.ukbglife.co.uk/wp-content/uploads/2023/03/grocery-store-or-supermarket-with-food-product-shelves-racks-dairy-fruits-and-drinks-for-shopping-in-flat-cartoon-hand-drawn-templates-illustration-vector.webp'); /* Ruta de tu imagen */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Para que el fondo no se desplace con el scroll */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    color: #151515; /* Texto blanco para contrastar con la imagen de fondo */
+}
+
+.login-container {
+    background: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+.login-form {
+    width: 100%; /* Asegura que el formulario ocupe todo el ancho */
+    max-width: 400px; /* Máximo ancho para el formulario */
+    margin: auto; /* Centra el formulario */
+}
